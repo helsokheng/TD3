@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+}
+.home_container{
+    position: relative;
+    height: 100%;
+}
+.sidebar{
+    width: 22%;
+    height: 100%;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: fixed;
+}
+.sidebar img {
+    width: 80px;
+    border-radius: 100%;
+    border: 2px solid #e5e5e5;
+  }
+  .sidebar .photo{
+      padding-top: 90px;
+  }
+  .sidebar h4 {
+    color: #d1cfcf;
+  }
+.container{
+    background-image: url('../TD3_iteams/assets/home_page_bg_2.jpeg');
+    height: 100vh;
+    margin-left: 22%;
+    color: #fff;
+    position: relative;
+}
+.container .container_text{
+    width: 100%;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    right: 0;
+}
+.container .user_name{
+    font-size: 60px;
+    margin: 0px;
+    padding-top: 20%;
+}
+.user_role{
+    opacity: 0.5;
+    color:white;
+}
+.container .table{
+    color: white;
+    font-size: 20px;
+}
+.mask{
+    height: 100vh;
+    opacity: 0.5;
+    background-color: black;
+}
+#nav{
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+#nav li{
+    position: relative;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    margin: -1px;
+}
+#nav li.ative{
+    background-color: #b3b2b2;
+}
+li.active a:after{
+    background-color: yellow;
+    display: block;
+    position: absolute;
+    content: ' ';
+    right: 0;
+    bottom: 0;
+    width: 5px;
+    height: 100%;
+}
+#nav a{
+    color: black;
+    text-decoration: none;
+}
