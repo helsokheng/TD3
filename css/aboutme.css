@@ -1,0 +1,290 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway&display=swap);
+body{
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+.about_me{
+    position: relative;
+    height: 100%;
+}
+.sidebar img {
+    width: 120px;
+    border-radius: 100%;
+    border: 2px solid orange;
+}
+.sidebar{
+    width: 22%;
+    height: 100%;
+    margin-top: 30px;
+    position: fixed;
+}
+.container{
+    position: relative;
+    height: 100vh;
+    margin-left: 22%;
+}
+.container .shadow {
+    width: 2%;
+    height: 200vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+}
+
+.container .header {
+    padding-left: 16px;
+    padding-top: 2%;
+}
+.socail i{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.container .header i {
+    background-color: hsl(24, 100%, 50%);
+    position: absolute;
+    font-size: xx-large;
+    font-weight: 600;
+    color: seashell;
+    width: 250px;
+    height: 50px;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 30px;
+    border-top-left-radius: 20px;
+}
+.header span {
+    position: absolute;
+    margin-left: 24%;
+    margin-top: 2%;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+}
+
+.header i:before {
+    content: " ";
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    background-color: hsl(24, 100%, 30%);
+    left: 0px;
+    top: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    z-index: 2;
+}
+
+.header i::after {
+    content: " ";
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    background-color: hsl(24, 100%, 50%);
+    left: 0px;
+    top: 100%;
+}
+
+#nav{
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+#nav li{
+    position: relative;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    margin: -1px;
+}
+
+#nav li.ative{
+    background-color: #b3b2b2;
+}
+li.active a:after{
+    background-color: yellow;
+    display: block;
+    position: absolute;
+    content: ' ';
+    right: 0;
+    bottom: 0;
+    width: 5px;
+    height: 100%;
+}
+#nav a{
+    color: black;
+    text-decoration: none;
+}
+
+.container .about{
+    width: 78%;
+    height: 500px;
+    margin-top: 10%;
+    position: relative;
+    display: flex;
+    margin-left: 9%;
+}
+.about>div{
+    height: 330px;
+    width: 50%;
+}
+.container .services{
+    height: 400px;
+    width: 78%;
+    position: relative;
+    display: flex;
+    margin-left: 9%;
+}
+.services>h2{
+    position: absolute;
+    text-decoration: underline yellow;
+}
+.services>div img{
+    height: 95px;
+}
+.services>div{
+    height: 400px;
+    width: 25%;
+    margin-top: 5%;
+    padding: 2% 5% 2% 5%;
+}
+.container .clients{
+    height: 200px;
+    width: 78%;
+    position: relative;
+    display: flex;
+    margin-left: 9%;
+}
+.clients h2{
+    position: absolute;
+    text-decoration: underline yellow;
+}
+.clients>div img{
+    height: 120px;
+}
+.clients>div{
+    height: 200px;
+    width: 16%;
+    margin-top: 5%;
+}
+.container .fun_facts{
+    height: 200px;
+    width: 78%;
+    position: relative;
+    display: flex;
+    margin-left: 9%;
+    margin-top: 2%;
+}
+.fun_facts h2{
+    position: absolute;
+    text-decoration: underline yellow;
+}
+.fun_facts>div{
+    height: 200px;
+    width: 25%;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    margin-top: 6%;
+    padding: 6% 5% 6% 5%;
+    margin-right: 3%;
+}
+.fun_facts .item1{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.fun_facts>div div{
+    color: yellow;
+    font-weight: 600;
+    font-size: 30px;
+}
+.fun_facts>div img{
+    width: 95px;
+}
+.about .item1 {
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    padding-left: 5%;
+}
+
+.about .item1 h2 {
+    margin-left: 5%;
+}
+
+.about .item1 p {
+    color: rgba(0, 0, 0, 0.9);
+    padding-right: 20%;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.about .item1 .paragraph {
+    color: rgba(0, 0, 0, 0.9);
+    padding-right: 20%;
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.about .item2 {
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    margin-left: 55%;
+}
+
+.item2 h2 {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    margin-left: 8%;
+}
+
+.about .item2 .block1 {
+    height: 220px;
+    position: absolute;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+    margin-left: 27%;
+}
+
+.block1 span {
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 15%;
+    margin-right: 10%;
+}
+
+.about .item2 .block2 img,
+span,
+p {
+    height: 100px;
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 40%;
+}
+
+.block2 img {
+    border-radius: 100%;
+    border: 2px solid hsl(24, 100%, 50%);
+}
+
+.block2 span {
+    padding-left: 23%;
+    padding-top: 8%;
+    font-weight: 600;
+    font-size: large;
+}
+
+.block2 p {
+    padding-left: 23%;
+    padding-top: 13%;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.block2 p span {
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: -18%;
+    margin-left: 30%;
+}
+
+.left {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.right {
+    position: absolute;
+    margin-left: 10%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
